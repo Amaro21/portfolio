@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio 2026</title>
+    <title>Jun Amaro | Portfolio 2026</title>
     <link rel="stylesheet" href="style.css">
     <!-- Optional: Add a clean font like Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-    <div class="logo"></div>
-        <ul class="nav-links">
-            <li><a href="#work">Work</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    <!-- Theme Toggle Button -->
-    <button id="theme-toggle" aria-label="Toggle Dark Mode">
-        <span id="theme-icon">🌙</span>
-    </button>
+        <div class="logo">MY PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">
+            <span id="theme-icon">🌙</span>
+        </button>
     </nav>
 
     <header class="hero">
@@ -39,6 +39,38 @@
             </div>
         </div>
     </header>
+
+    <section id="work" class="projects">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+            <!-- Project 1: E-commerce -->
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop" alt="E-commerce Project" class="project-thumbnail">
+                </div>
+                <h3>E-commerce Redesign</h3>
+                <p>UX Design & Frontend Development</p>
+            </div>
+
+            <!-- Project 2: SaaS Dashboard -->
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop" alt="SaaS Dashboard Project" class="project-thumbnail">
+                </div>
+                <h3>SaaS Dashboard</h3>
+                <p>Product Design</p>
+            </div>
+
+            <!-- Project 3: Brand Identity -->
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?q=80&w=800&auto=format&fit=crop" alt="Brand Identity Project" class="project-thumbnail">
+                </div>
+                <h3>Brand Identity</h3>
+                <p>Visual Design</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
@@ -72,27 +104,6 @@
         </div>
     </section>
 
-    <section id="work" class="projects">
-        <h2>Selected Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <div class="project-img" style="background-color: #333;"></div>
-                <h3>E-commerce Redesign</h3>
-                <p>UX Design & Frontend Development</p>
-            </div>
-            <div class="project-card">
-                <div class="project-img" style="background-color: #444;"></div>
-                <h3>SaaS Dashboard</h3>
-                <p>Product Design</p>
-            </div>
-            <div class="project-card">
-                <div class="project-img" style="background-color: #222;"></div>
-                <h3>Brand Identity</h3>
-                <p>Visual Design</p>
-            </div>
-        </div>
-    </section>
-
     <section id="about" class="about">
         <div class="about-content">
             <h2>About Me</h2>
@@ -113,5 +124,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
